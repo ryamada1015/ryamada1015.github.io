@@ -16,10 +16,10 @@
         Teal: hsl(174, 63%, 62%)
 
   */
-  --first-hue: 18;
-  --sat: 18%;
-  --lig: 59%;
-  --second-hue: 10;
+  --first-hue: 250;
+  --sat: 66%;
+  --lig: 75%;
+  --second-hue: 219;
 
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
@@ -751,7 +751,6 @@ body.light-theme {
 
 .contact__info {
   display: grid;
-  gap: 1rem;
 }
 
 .contact__card {
@@ -844,7 +843,7 @@ body.light-theme {
 }
 
 .footer__container {
-  padding: 2rem 0 6rem;
+  padding: 1rem 0 3rem;
 }
 
 .footer__title,
