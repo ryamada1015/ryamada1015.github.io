@@ -739,7 +739,6 @@ body.light-theme {
 
 /*=============== CONTACT ===============*/
 .contact__container {
-  row-gap: 3rem;
   padding-bottom: 3rem;
 }
 
@@ -755,7 +754,7 @@ body.light-theme {
 
 .contact__card {
   background-color: var(--container-color);
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 0.75rem;
   text-align: center;
 }
